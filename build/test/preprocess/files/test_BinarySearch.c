@@ -62,7 +62,7 @@ void test_binarySearch_for_nine_if_larger_than_target_and_is_in_target(void){
 
  int endIndex = 8;
 
- int target = 18;
+ int target = 10;
 
  int returnValue;
 
@@ -70,7 +70,7 @@ void test_binarySearch_for_nine_if_larger_than_target_and_is_in_target(void){
 
  returnValue = binarySearch(target,arraySearch,startIndex,endIndex);
 
- UnityAssertEqualNumber((_U_SINT)((8)), (_U_SINT)((returnValue)), (((void *)0)), (_U_UINT)38, UNITY_DISPLAY_STYLE_INT);
+ UnityAssertEqualNumber((_U_SINT)((4)), (_U_SINT)((returnValue)), (((void *)0)), (_U_UINT)38, UNITY_DISPLAY_STYLE_INT);
 
 }
 
