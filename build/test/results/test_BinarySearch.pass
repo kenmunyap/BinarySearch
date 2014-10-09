@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_BinarySearch.c
+:successes:
+- :test: test_binarySearch_for_ten_if_smaller_than_target_and_not_in_target
+  :line: 8
+  :message: ''
+- :test: test_binarySearch_for_ten_if_larger_than_target_and_not_in_target
+  :line: 19
+  :message: ''
+- :test: test_binarySearch_for_nine_if_larger_than_target_and_is_in_target
+  :line: 30
+  :message: ''
+- :test: test_binarySearch_for_nine_if_smaller_than_target_and_is_in_target
+  :line: 41
+  :message: ''
+- :test: test_binarySearch_for_nine_is_in_target
+  :line: 52
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
